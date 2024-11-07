@@ -12,23 +12,25 @@ body {
     font-size: larger;
     font-weight: bold;     
 }
-.nav-link a:hover{
-    color: rgb(139, 0, 0);
+.gapMain{
+    gap: 50px;
 }
 .nav-padding{
     padding: 26px 12px 8px;
 }
 .nav-color {
-    background-color: black;
-    color: white;    
-    width: 100%; 
-    height: 80px;
+    background-image: linear-gradient(to right bottom, #000000, #1a1311, #292017, #30301e, #2f422e);
+    width: 100%;
+    
+
+    
+  
 }
 
 .btn-primary{
-    padding: 20px;
-    border-radius: 30px;
-    background-color: #000000;
+    padding: 16px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right bottom, #000000, #1a1311, #292017, #30301e, #2f422e);
     color: white;
     border-style: none;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -126,80 +128,51 @@ select {
     background-repeat: no-repeat; /* prevents the image from repeating */
     background-position: center; /* centers the image */
     width: 100%;
-    height: 600px;
-}
-.bgImageres{
-    background-image: url('img/bg.jpg');
-    background-size: cover; /* or contain */
-    background-repeat: no-repeat; /* prevents the image from repeating */
-    background-position: center; /* centers the image */
-    width: 100%;
-    height: 1000px;
-}
-.aboutusBox {
-    width: 400px;
-    height: 400px;
-    margin-top: 100px;
-    background: rgba(0, 94, 255, 0);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    padding: 20px;
+    height: 100%;
+    gap:20px;
     color: white;
-}
-
-.aboutusBoxres {
-    width: 330px;
-    height: 400px;
-    margin-top: 100px;
-    background: rgba(0, 94, 255, 0);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    padding: 20px;
-    color: white;
-}
-
-.aboutusBoxCircle{
-    margin-top: 100px;
-    width: 400px; /* Set equal width and height */
-    height: 400px;
-    background: rgba(0, 94, 255, 0);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    border-radius: 50%; /* Makes the box circular */
-   padding: 20px;
-    color:white;
-}
-
-.aboutusBoxCircleres{
+    font-family:Georgia, 'Times New Roman', Times, serif;
    
-    width: 330px; /* Set equal width and height */
-    height: 330px;
-    background: rgba(0, 94, 255, 0);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    border-radius: 50%; /* Makes the box circular */
-   padding: 20px;
-    color:white;
 }
-.forBox{
-    gap:80px;
+#bgColor{
+    background-color: #ebebeb;
 }
-.mt{
-    margin-top: 100px;
+.fontSize{
+    font-size: 150px;
 }
-.pad-text{
-    padding: 20px;
+.fontSizeRes{
+    font-size: 100px;
 }
-.gapImg{
-    height: 200px;
+.marginTop{
+    margin-top: 70px;
 }
 
-.Box{
-    padding: 20px;
-    border: 1px solid black;
-    border-radius: 6px;
+
+.divHistoryrel{
+    position: relative;
 }
+.divHistoryabs img{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+
+
+.bgFooter{
+    background-image: url("../src/img/Asset\ 2\ 1.png");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+  
+  .historyBox{
+    width: 600px;
+    border: 1px solid black;
+    padding: 10px;
+  }
