@@ -64,7 +64,7 @@ body {
     display: block;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 766px) {
     .desktop-only {
         display: none;
     }
@@ -193,7 +193,7 @@ select {
 }
 
 .margintopSubs{
-    margin-top: 130px;
+    margin-top: 140px;
 }
 .btn-primaryContact{
     padding: 12px;
@@ -204,4 +204,10 @@ select {
     border-style: none;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold; 
+}
+.partnerBox{
+    width: 200px;
+    
+    
+    border: 1px solid black;
 }
