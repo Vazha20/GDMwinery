@@ -41,25 +41,13 @@
   height: 200px;
   border-radius: 10px;
   margin-bottom: 20px;
-  
-  
-  
-  
 }
-
-
-
-
-
-
-
 .slider-wrapper .swiper-pagination-bullet {
   background: black;
   height: 13px;
   width: 13px;
   opacity: 0.5;
 }
-
 .slider-wrapper .swiper-pagination-bullet-active {
   opacity: 1;
 }
@@ -86,10 +74,9 @@
 
 
 card-item:hover{
-    background-color: #17171d;
-    transform-style: preserve-3d;
+   
     transform: scale(1.02);
-    transition: all ease 0.9;
+    transition: all ease 0.3;
     cursor: pointer;
     border-radius: 10px;
 }
