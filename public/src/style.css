@@ -1,3 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+p{
+    font-family: "Sour Gummy", sans-serif;
+}
+h2{
+    font-family: "Sour Gummy", sans-serif;
+}
+h3{
+    font-family: "Sour Gummy", sans-serif;
+}
+h6{
+    font-family: "Sour Gummy", sans-serif;
+}
 body {
     margin: 0;
     padding: 0;
@@ -29,7 +43,7 @@ body {
     background-image: linear-gradient(to right bottom, #000000, #1a1311, #292017, #30301e, #2f422e);
     color: white;
     border-style: none;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Sour Gummy", sans-serif;
     font-weight: bold; 
 }
 .Width {
@@ -202,12 +216,14 @@ select {
     background-image: linear-gradient(to right bottom, #000000, #1a1311, #292017, #30301e, #2f422e);
     color: white;
     border-style: none;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Sour Gummy", sans-serif;
     font-weight: bold; 
 }
 .partnerBox{
     width: 200px;
-    
-    
+    border: 1px solid black;
+}
+.partnerBoxRes{
+    width: 150px;
     border: 1px solid black;
 }
